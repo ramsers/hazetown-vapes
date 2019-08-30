@@ -1,0 +1,101 @@
+/* Brands Page CSS*/
+
+.rte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+
+
+.hovereffect {
+
+width: 100%;
+height: 100%;
+border-style: solid;
+border-color: #c5c5c5;
+border-width: 1px;
+box-shadow: 4px 4px 5px #d4d4d4;
+padding: 10px 50px;
+display: flex;
+position: relative;
+transition: .6s ease-out;  
+}
+
+
+
+.col-lg-3 {
+margin-bottom: 25px;
+
+
+}
+
+.col-lg-3 .img-responsive:hover {
+transform: translateY(10px);
+
+}
+
+.col-lg-3 .img-responsive:hover:before {
+opacity: 1;
+}
+
+.hovereffect .img-responsive {
+
+top: 0;
+left: 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.img-responsive {
+padding: auto;
+}
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.img-responsive {
+padding: auto;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.img-responsive {
+padding: auto;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+.img-responsive {
+padding: auto;
+}
+
+.collection .grid.full-width .collection-container {
+display: none;
+}
+}
+
+.collection-image {
+display: none;
+}
+img:nth-child(1) {
+padding-bottom: 9px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.collection .grid.full-width .collection-container {
+font-size: 14px;
+
+}
+}
